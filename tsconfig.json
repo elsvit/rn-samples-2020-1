@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "outDir": "build",
+    "resolveJsonModule": true,
+    "rootDir": "src",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5",
+    "baseUrl": "./src",
+    "paths": {
+      "src": ["./"],
+      "assets": ["./assets"],
+      "fonts": ["./assets/fonts"],
+      "images": ["./assets/images"],
+      "icons": ["./assets/icons"],
+      "components": ["./components"],
+      "ui": ["./components/ui"],
+      "constants": ["./constants"],
+      "services": ["./services"],
+      "store": ["./store"],
+      "types": ["./types"]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "types.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "webpack",
+    "jest"
+  ]
+}
